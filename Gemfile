@@ -24,6 +24,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'active_model_serializers'
 
 gem "devise"
+gem "shoulda-matchers"
 
 gem 'rake', '< 11.0'
 
