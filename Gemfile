@@ -23,6 +23,9 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'active_model_serializers'
 
+gem "devise"
+
+gem 'rake', '< 11.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -41,6 +44,9 @@ gem 'jquery-rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem "rspec-rails", "~> 2.14"
+  gem "factory_girl_rails"
+  gem 'ffaker'
 end
 
 group :development do
